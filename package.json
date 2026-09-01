@@ -1,0 +1,16 @@
+{
+  "name": "auditor-ibscbs-backend",
+  "version": "0.1.0",
+  "description": "Backend de apoio ao Auditor IBS/CBS — consulta de NF-e/NFS-e na SEFAZ/Receita ou em um provedor terceirizado (Focus NFe, PlugNotas, eNotas, etc).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
