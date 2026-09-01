@@ -1,0 +1,14 @@
+# Segredos — NUNCA suba isso ao GitHub
+backend/.env
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Node
+backend/node_modules/
+npm-debug.log
+
+# Sistema
+.DS_Store
+Thumbs.db
